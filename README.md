@@ -1,5 +1,7 @@
 # Paradigmo de la OOP
 
+La programación orientada a objetos (POO) se basa en la idea de modelar problemas del mundo real en programas, utilizando objetos que representan entidades con identidad, estado y comportamiento. La POO en Python permite crear objetos con características únicas: cada objeto posee una identidad propia, comprobable con las operaciones is y is not, y puede almacenar información en forma de atributos (variables de instancia o campos) que representan su estado. Además, los objetos pueden modificar su estado a través de métodos, que son funciones asociadas al objeto y definen su comportamiento. Esta estructura facilita la organización del código, la reutilización de componentes y la reducción de errores.
+
 - Encapsulamiento
 
 Se basa en convenciones de nomenclatura, no en mecanismos de acceso estrictos como en otros lenguajes. Se utiliza un guion bajo (_) al inicio del nombre de un atributo para indicar que no debe ser accedido directamente desde fuera de la clase, aunque técnicamente es posible. Para métodos, se utilizan dos guiones bajos (__) al inicio del nombre, lo que los convierte en "privados" y les aplica una técnica llamada "name mangling" que dificulta su acceso directo desde fuera de la clase. Python no impide el acceso a estos atributos y métodos "privados", pero la convención de nomenclatura es una guía para mantener la integridad del objeto y facilitar el mantenimiento del código.
